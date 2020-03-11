@@ -12,7 +12,11 @@
       *ngFor="let info of infoArray"
       class="list-group-item list-group-item-action"
       (click)="abrirEditar(info)"
+     
+      [class.active]="info == selecInfo"
+       
       >
+      <!--[class.active] es una clase de bootstrap que permite seleccionar las tablas-->
       <!--genera un efecto de sombreado al hacer hover sobre los elementos de la lista-->
       <span class="badge badge-primary">{{info.id}}</span>  {{info.nombre}} - {{info.cedula}}
       </li>
