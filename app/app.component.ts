@@ -17,6 +17,10 @@ export class AppComponent {
 /*Creamos una variable de tipo type scrip para añadir atravez de la caja*/ 
 selecInfo: Info= new Info();
 
+abrirEditar(info:Info){
+this.selecInfo = info
+}
+
 AgEditar(){
   this.selecInfo.id= this.infoArray.length + 1
   this.infoArray.push(this.selecInfo)
