@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import $ from 'jquery';
+
 import { Info} from './models/info';
 
 @Component({
