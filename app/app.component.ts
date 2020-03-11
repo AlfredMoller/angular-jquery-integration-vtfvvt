@@ -30,4 +30,9 @@ AgEditar(){
   this.selecInfo= new Info()
 }
 
+Eliminar(){
+  this.infoArray= this.infoArray.filter(x=> x !=this.selecInfo)
+  this.selecInfo= new Info()
+}
+
 }
