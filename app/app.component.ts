@@ -2,8 +2,6 @@ import { Component, OnInit } from '@angular/core';
 import $ from 'jquery';
 import { Info} from './models/info';
 
-import {FormsModule} from '@angular/forms';
-
 @Component({
   selector: 'my-app',
   templateUrl: './app.component.html',
