@@ -33,6 +33,7 @@ AgEditar(){
 Eliminar(){
   if(confirm('Esta Seguro que Desea eliminar la Información???')){
   this.infoArray= this.infoArray.filter(x=> x !=this.selecInfo)
+  /*dentro de la funcion filrer recorremos cada item del arrego , es decir, por cada elemtento distinto al seleccionado lo dejamos tal cual*/ 
   this.selecInfo= new Info()
 }
 }
