@@ -31,8 +31,10 @@ AgEditar(){
 }
 
 Eliminar(){
+  if(confirm('Esta Seguro que Desea eliminar la Información???')){
   this.infoArray= this.infoArray.filter(x=> x !=this.selecInfo)
   this.selecInfo= new Info()
+}
 }
 
 }
