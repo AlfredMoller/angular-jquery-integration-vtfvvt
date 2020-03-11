@@ -18,7 +18,7 @@ export class AppComponent {
 selecInfo: Info= new Info();
 
 AgEditar(){
-  this.selecInfo.id= this.infoArray.length +1;
+  this.selecInfo.id= this.infoArray.length + 1;
   this.infoArray.push(this.selecInfo)
 }
 
