@@ -6,11 +6,12 @@
 <div class="container">
   <div class="row">
     <div class="col-md-8">
-      <ul class="list-group-item">
+      <ul class="list-group">
         <!--Se crea una directiva de angular para recorrer el arreglo-->
       <li 
       *ngFor="let info of infoArray"
       class="list-group-item list-group-item-action">
+      <!--genera un efecto de sombreado al hacer hover sobre los elementos de la lista-->
       {{info.nombre}}
       </li>
        
