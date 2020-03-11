@@ -23,10 +23,9 @@ this.selecInfo = info
 
 AgEditar(){
   if(this.selecInfo.id === 0){
-    
-  }
   this.selecInfo.id= this.infoArray.length + 1
   this.infoArray.push(this.selecInfo)
+  }  
 
   this.selecInfo= new Info()
 }
