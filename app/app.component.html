@@ -12,7 +12,7 @@
       *ngFor="let info of infoArray"
       class="list-group-item list-group-item-action">
       <!--genera un efecto de sombreado al hacer hover sobre los elementos de la lista-->
-      {{info.nombre}}
+      <span class="badge badge-primary">{{info.id}}</span>  {{info.nombre}} - {{info.cedula}}
       </li>
        
       </ul>
