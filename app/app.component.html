@@ -38,6 +38,11 @@
       <button (click)="AgEditar()" class="btn btn-success">
         Agregar
       </button>
+      <button 
+      *ngIf="selecInfo.id !== 0"
+      (click)="Eliminar()" class="btn btn-danger">
+        Eliminar
+      </button>
 </div>
 </div>
   </div>
