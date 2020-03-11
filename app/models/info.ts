@@ -1,5 +1,5 @@
 export class Info {
-  id: number;
+  id: number = 0;
   nombre:string;
   cedula:string;
 }
