@@ -11,8 +11,8 @@ import { Info} from './models/info';
 export class AppComponent {
  infoArray: Info[]=[
  {id: 1, nombre: "Josh", cedula:"1.126.126"},
- {id: 1, nombre: "Maria", cedula:"2.116.556"},
- {id: 1, nombre: "Fred", cedula:"365.400"},
+ {id: 2, nombre: "Maria", cedula:"2.116.556"},
+ {id: 3, nombre: "Fred", cedula:"365.400"},
  ];
 /*Creamos una variable de tipo type scrip para añadir atravez de la caja*/ 
 selecInfo: Info= new Info();
