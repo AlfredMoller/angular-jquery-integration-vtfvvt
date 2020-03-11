@@ -13,5 +13,8 @@ export class AppComponent {
  {id: 1, nombre: "Maria", cedula:"2.116.556"},
  {id: 1, nombre: "Fred", cedula:"365.400"},
  ];
+/*Creamos una variable de tipo type scrip para añadir atravez de la caja*/ 
+selecInfo: Info= new Info();
+
 
 }
